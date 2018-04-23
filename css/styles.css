@@ -1,0 +1,18 @@
+.about {
+  text-align: justify;
+  width: 100%;
+  border: 6px solid gray;
+  background-color: #912f40;
+  color: white;
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #702632;
+    clear: left;
+    text-align: center;
+}
+img {
+  float: right;
+  
+}
