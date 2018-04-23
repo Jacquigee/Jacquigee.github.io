@@ -4,6 +4,9 @@
   border: 6px solid gray;
   background-color: #912f40;
   color: white;
+  border: 2px ;
+  padding: 6px;
+  margin: 20px;
 }
 header, footer {
     padding: 1em;
@@ -12,7 +15,24 @@ header, footer {
     clear: left;
     text-align: center;
 }
-img {
-  float: right;
-  
+.align {
+  text-align: justify;
+  width = 350px:
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
 }
